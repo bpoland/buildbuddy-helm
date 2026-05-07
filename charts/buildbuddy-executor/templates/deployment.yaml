@@ -101,10 +101,6 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: status.podIP
-            - name: MY_NODENAME
-              valueFrom:
-                fieldRef:
-                  fieldPath: spec.nodeName
             - name: K8S_POD_UID
               valueFrom:
                 fieldRef:
